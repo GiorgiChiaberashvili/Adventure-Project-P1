@@ -44,12 +44,12 @@ class Room {
     }
 
     getItemByName(name) {
-
         // Fill this in
+        return this.items.find(item => item.name === name);
     }
 
 }
 
 module.exports = {
-  Room,
+    Room,
 };
